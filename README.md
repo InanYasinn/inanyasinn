@@ -1,4 +1,4 @@
-[![MasterHead](https://png.pngtree.com/background/20210712/original/pngtree-color-technology-sense-creative-integrated-circuit-background-picture-image_1175268.jpg)
+![MasterHead](https://p4.wallpaperbetter.com/wallpaper/803/903/766/green-eyes-green-chip-eye-hd-wallpaper-preview.jpg)
 <h1 align="center">Hi 👋, I'm Yasin Inan</h1>
 <h3 align="center">A passionate Engineering Physics from Türkiye</h3>
 
