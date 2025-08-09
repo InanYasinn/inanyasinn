@@ -3,13 +3,16 @@ name: Generate Snake
 on:
   schedule:
     - cron: "0 0 * * *"   # her gece UTC 00:00
-  workflow_dispatch:       # elle çalıştırma
+  workflow_dispatch:
   push:
-    branches: ["main"]     # README'yi güncellediğinde de çalışsın
+    branches: ["main"]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write       # <-- output branch'ine push izni
+
     steps:
       - name: Generate SVG
         uses: Platane/snk@v3
@@ -22,8 +25,7 @@ jobs:
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output          # <-- hedef branch
-          build_dir: dist                # <-- dosyaların olduğu klasör
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
