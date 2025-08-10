@@ -1,4 +1,4 @@
-![MasterHead](https://p4.wallpaperbetter.com/wallpaper/803/903/766/green-eyes-green-chip-eye-hd-wallpaper-preview.jpg)
+![MasterHead](https://c4.wallpaperflare.com/wallpaper/77/951/737/computer-engineering-science-tech-wallpaper-preview.jpg)
 <h1 align="center">Hi 👋, I'm Yasin Inan</h1>
 <h3 align="center">A passionate Engineering Physics from Türkiye</h3>
 
